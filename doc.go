@@ -6,23 +6,23 @@
 //
 // The module path for the current major version is github.com/urfave/negroni/v3.
 //
-//  package main
+//	package main
 //
-//  import (
-//    "fmt"
-//    "net/http"
+//	import (
+//	  "fmt"
+//	  "net/http"
 //
-//    "github.com/urfave/negroni/v3"
-//  )
+//	  "github.com/urfave/negroni/v3"
+//	)
 //
-//  func main() {
-//    mux := http.NewServeMux()
-//    mux.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
-//      fmt.Fprintf(w, "Welcome to the home page!")
-//    })
+//	func main() {
+//	  mux := http.NewServeMux()
+//	  mux.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
+//	    fmt.Fprintf(w, "Welcome to the home page!")
+//	  })
 //
-//    n := negroni.Classic()
-//    n.UseHandler(mux)
-//    n.Run(":3000")
-//  }
+//	  n := negroni.Classic()
+//	  n.UseHandler(mux)
+//	  n.Run(":3000")
+//	}
 package negroni
